@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/widgetbackground"
+    android:layout_width="294dip" 
+    android:layout_height="64dip"
+    android:layout_weight="1">
+    
+    
+    <!-- ttTumblr's logo -->
+    <Button
+    android:id="@+id/widget_TumblrLogo"
+    android:background="@drawable/tumblr48x48"
+    android:layout_gravity="center_vertical"
+    android:layout_height="48dip" 
+    android:layout_width="48dip"
+    android:layout_margin="10dip" />
+   	
+   	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="64dip"
+    android:layout_width="wrap_content"
+    android:layout_weight="1" >
+   	
+		<Button
+		android:id="@+id/widget_DashboardBtn"
+		android:background="@drawable/dashboardbtn"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/widget_TextBtn"
+	    android:layout_height="64dip"
+	    android:layout_width="48dip"
+	    android:layout_marginRight="8dip" />
+	    
+	    <Button
+	    android:id="@+id/widget_TextBtn"
+	    android:background="@drawable/textbtn"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/widget_ImgBtn"
+	    android:layout_height="64dip"
+	    android:layout_width="48dip" 
+	    android:layout_marginRight="8dip" />
+	    
+	    <Button
+	    android:id="@+id/widget_ImgBtn"
+	    android:background="@drawable/imgbtn"
+		android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/widget_VideoBtn"
+	    android:layout_height="64dip"
+	    android:layout_width="48dip"
+	    android:layout_marginRight="8dip" />
+	    
+	    <Button
+	    android:id="@+id/widget_VideoBtn"
+	    android:background="@drawable/videobtn"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_height="64dip"
+	    android:layout_width="48dip"
+	    android:layout_marginRight="8dip" />
+	      
+	</RelativeLayout>
+	     
+</LinearLayout>
+    
